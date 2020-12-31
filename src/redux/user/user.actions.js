@@ -42,6 +42,26 @@ export const checkUserSession = () => {
     })
 };
 
+export const signOutStart = () => {
+    // debugger
+    return ({
+        type: UserActionTypes.SIGN_OUT_START
+    });
+};
+export const signOutSuccess= () => {
+    // debugger
+    return ({
+        type: UserActionTypes.SIGN_OUT_SUCCESS
+    });
+};
+
+export const signOutFailure = (error) => {
+    return ({
+        type: UserActionTypes.SIGN_IN_FAILURE,
+        payload: error
+    });
+};
+
 // export const emailSignInSuccess = (user) => {
 //     return ({
 //         type: UserActionTypes.EMAIL_SIGN_IN_SUCCESS,
