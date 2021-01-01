@@ -38,7 +38,7 @@ const cartReducer = (state = INITIAL_STATE, action) => {
         )
       };
     case CLEAR_CART:
-      debugger
+      // debugger
       return {
         ...state,
         cartItems: []
