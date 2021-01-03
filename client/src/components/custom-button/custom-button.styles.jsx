@@ -10,6 +10,10 @@ const buttonStyles = css`
     color: black;
     border: 1px solid black;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 50px;
+  }
 `;
 
 const invertedButtonStyles = css`
