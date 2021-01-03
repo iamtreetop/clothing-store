@@ -4,6 +4,7 @@ const buttonStyles = css`
   background-color: black;
   color: white;
   border: none;
+  outline: none;
 
   &:hover {
     background-color: white;
@@ -20,6 +21,7 @@ const invertedButtonStyles = css`
   background-color: white;
   color: black;
   border: 1px solid black;
+  outline: none;
 
   &:hover {
     background-color: black;
@@ -31,6 +33,8 @@ const invertedButtonStyles = css`
 const googleSignInStyles = css`
   background-color: #4285f4;
   color: white;
+  border: none;
+  outline: none;
 
   &:hover {
     background-color: #357ae8;
